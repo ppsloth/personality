@@ -1,0 +1,45 @@
+.pt-wrap {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.pt-card {
+  background: #fff;
+  border: 3px solid #ffcb05;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 4px 0 #3b4cca;
+}
+.pt-hidden { display: none; }
+.pt-btn {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px;
+  font-size: 1rem;
+  background: #3b4cca;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pt-btn:hover { background: #2a38a0; }
+.pt-bar {
+  height: 8px;
+  background: #eee;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+#pt-bar-fill {
+  height: 100%;
+  width: 0;
+  background: #ffcb05;
+  border-radius: 4px;
+  transition: width 0.3s;
+}
+.pt-img { width: 200px; max-width: 100%; height: auto; margin: 8px 0; }
+@media (max-width: 480px) {
+  .pt-card { padding: 16px; }
+}

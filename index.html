@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나와 닮은 포켓몬 찾기</title>
+  <link rel="stylesheet" href="css/personality.css">
+</head>
+<body>
+  <main class="pt-wrap">
+    <section id="pt-start" class="pt-card">
+      <h1>나와 닮은 포켓몬 찾기</h1>
+      <p>질문 8개에 답하면 나와 어울리는 포켓몬이 나와요.</p>
+      <button id="pt-start-btn" class="pt-btn">시작하기</button>
+    </section>
+
+    <section id="pt-quiz" class="pt-card pt-hidden">
+      <p id="pt-progress"></p>
+      <div class="pt-bar"><div id="pt-bar-fill"></div></div>
+      <h2 id="pt-question"></h2>
+      <div id="pt-choices"></div>
+    </section>
+
+    <section id="pt-result" class="pt-card pt-hidden">
+      <p>당신과 닮은 포켓몬은</p>
+      <img id="pt-img" class="pt-img" src="" alt="결과 포켓몬">
+      <h2 id="pt-name"></h2>
+      <p id="pt-desc"></p>
+      <button id="pt-retry-btn" class="pt-btn">다시 하기</button>
+    </section>
+  </main>
+  <script src="js/personality.js"></script>
+</body>
+</html>
